@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cuarto Caso</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div [ngClass]="{'aprobado': nota >= 65, 'reprobado': nota < 65}">
+    Nota: {{ nota }}
+  </div>
+</ion-content>
